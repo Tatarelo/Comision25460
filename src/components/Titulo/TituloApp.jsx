@@ -1,6 +1,10 @@
-const TituloApp = () => {
+const TituloApp = ({titulo, subtitulo, saludo}) => {
     return(
-        <h1>Soy un titulo app</h1>
+        <div>
+            <h1>{titulo}</h1>
+            <h1>{subtitulo}</h1>
+            <button onClick={saludo}>Ejecutar saludo</button>
+        </div>
     )
 }
 

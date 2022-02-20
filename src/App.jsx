@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import TituloApp from "./components/Titulo/TituloApp";
+import InputApp from "./components/input/input";
+import ComponenteContenedor from "./components/ComponenteContenedor";
+import ComponenteImagen from "./components/Titulo/IconoCart";
+import NavBar from "./components/NavBar/NavBar";
+
 
 function App() {
+  // const tit = 'Este titulo viene de app'
+  // const saludo = () => console.log('saludo de app')
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <NavBar/>
+        {/* <TituloApp titulo={tit} subtitulo='soy subtitulo' saludo={saludo}/> */}
+        {/* <InputApp><ComponenteImagen/><ComponenteImagen/></InputApp> */}
+        {/* <ComponenteContenedor saludo='hola soy saludo de contenedor'/> */}
     </div>
   );
 }
