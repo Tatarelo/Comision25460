@@ -82,3 +82,27 @@ body{
   height: 45px;
   margin-right: 15px;
 }
+
+.botonIncrementar{
+  margin-top: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: greenyellow;
+}
+
+.botonDecrementar{
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.textoCarrito{
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.count{
+  margin-right: 40px;
+}
