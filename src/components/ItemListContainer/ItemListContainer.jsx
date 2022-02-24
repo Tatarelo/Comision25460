@@ -1,5 +1,6 @@
 import Div from "../Div"
 import {useState, useEffect} from "react"
+import { ItemCount } from "../ItemCount/ItemCount"
 
 export default function ItemListContainer({div}) {
 
@@ -23,30 +24,31 @@ export default function ItemListContainer({div}) {
 
   // const array = useState()
 
-  const incrementar = () => {
-    console.log(count)
-    if(count >= 0 && count < 10) {
-      setCount(count + 1)
-    } else{console.log("Ha superado el limite de stock")}
-  }
+  // const incrementar = () => {
+  //   console.log(count)
+  //   if(count >= 0 && count < 10) {
+  //     setCount(count + 1)
+  //   } else{console.log("Ha superado el limite de stock")}
+  // }
 
-  const decrementar = () => {
-    if(count > 0 && count <= 10) {
-      setCount(count - 1)
-    } else{console.log("Ha superado el limite de stock")}
-    console.log(count)
-  }
+  // const decrementar = () => {
+  //   if(count > 0 && count <= 10) {
+  //     setCount(count - 1)
+  //   } else{console.log("Ha superado el limite de stock")}
+  //   console.log(count)
+  // }
 
-  
+
 
   return (
     <div>
       {/* <Div/> */}
       {/* <ItemCount initial= {1}, stock={10} onAdd={mostrarCantidad}/> */}
-      <p className='textoCarrito'>Carrito</p>
-      <button className='botonDecrementar' onClick={decrementar}>-</button>
-      <label className='count'>{count}</label> 
-      <button className='botonIncrementar' onClick={incrementar}>+</button>
+      {/* <p className='textoCarrito'>Carrito</p> */}
+      {/* <button className='botonDecrementar' onClick={decrementar}>-</button> */}
+      {/* <label className='count'>{count}</label>  */}
+      {/* <button className='botonIncrementar' onClick={incrementar}>+</button> */}
+      {/* <button disabled={}>Agregar al carrito</button> */}
       {/* <button onClick={ () => setBool(!bool)}>Booleano</button> */}
       </div>
   )

@@ -86,19 +86,27 @@ html, body{
   margin-right: 15px;
 }
 
-.botonIncrementar{
+.divCount{
+  display: flex;
   margin-top: 50px;
+}
+
+.botonIncrementar{
   width: 30px;
   height: 30px;
+  margin-right: 40px;
   background-color: greenyellow;
 }
 
 .botonDecrementar{
-  margin-right: 50px;
-  margin-left: 50px;
   width: 30px;
   height: 30px;
+  margin-right: 40px;
   background-color: red;
+}
+
+.botonCarrito{
+  height: 30px;
 }
 
 .textoCarrito{
@@ -107,5 +115,6 @@ html, body{
 }
 
 .count{
+  margin-left: 40px;
   margin-right: 40px;
 }
