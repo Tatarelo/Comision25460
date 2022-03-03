@@ -1,120 +1,82 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-html, body{
+html,
+body {
   font-family: 'Mochiy Pop P One', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.navBar{
+.navBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:gold;
+  background-color: gold;
   height: 100px;
 }
 
-.navBar_div{
+.navBar_div {
   display: flex;
 }
 
-.titleNav{
+.titleNav {
   font-size: 25px;
   margin-left: 230px;
 }
 
-.logo{
+.logo {
   height: 80px;
   margin-left: 10px;
 }
 
-.navList{
+.navList {
   display: flex;
   align-items: center;
 }
 
-.navList_ul{
+.navList_ul {
   display: flex;
   list-style-type: none;
 }
 
-.navList_li{
+.navList_li {
   margin: 0 20px;
   font-size: 18px;
 }
 
-.logoCarrito{
+.logoCarrito {
   height: 45px;
   margin-right: 15px;
 }
 
-.divCount{
+.divCount {
   display: flex;
   margin-top: 50px;
 }
 
-.botonIncrementar{
+.botonIncrementar {
   width: 30px;
   height: 30px;
   margin-right: 40px;
   background-color: greenyellow;
 }
 
-.botonDecrementar{
+.botonDecrementar {
   width: 30px;
   height: 30px;
   margin-right: 40px;
   background-color: red;
 }
 
-.botonCarrito{
+.botonCarrito {
   height: 30px;
 }
 
-.textoCarrito{
+.textoCarrito {
   font-size: 20px;
   margin-left: 100px;
 }
 
-.count{
+.count {
   margin-left: 40px;
   margin-right: 40px;
 }
