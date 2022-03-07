@@ -1,4 +1,4 @@
-export const NavList = () =>{
+export const NavList = () => {
     return (
         <ul className='navList_ul'>
             <a href=""><li className='navList_li'>Inicio</li></a>

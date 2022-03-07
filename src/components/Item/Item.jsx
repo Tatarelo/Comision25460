@@ -7,7 +7,7 @@ export const Item = ({ foto }) => {
       <ItemCount
         stock={10}
         initial={0}
-        onAdd={(n) => console.log(`Hola${n}`)}
+        onAdd={(n) => console.log(`Producto${n}`)}
       />
     </div>
   );

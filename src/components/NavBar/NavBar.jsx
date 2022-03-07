@@ -1,10 +1,9 @@
-import React from 'react'
 import { ItemCart } from '../ItemCart/ItemCart'
 import { LogoNav } from '../LogoNav/LogoNav'
 import { NavList } from '../NavList/NavList'
 import { TitleNav } from '../TitleNav/TitleNav'
 
-function NavBar() {
+export const NavBar = () => {
   return (
     <header className='navBar'>
         <div className='navBar_div'>
@@ -18,5 +17,3 @@ function NavBar() {
     </header>
   )
 }
-
-export default NavBar

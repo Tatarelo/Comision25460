@@ -7,7 +7,8 @@ const productos = [
     {id:6, foto: "https://http2.mlstatic.com/D_NQ_NP_928779-MLA25879249249_082017-O.jpg"}
   ]
 
-export const getFetch = new Promise ((resolve, reject) => {
+  
+  export const getFetch = new Promise ((resolve, reject) => {
     let url = 'tata.com'
     if(url === 'tata.com'){
       setTimeout(() => {
@@ -17,3 +18,17 @@ export const getFetch = new Promise ((resolve, reject) => {
       reject('400 not found')
     }
   })
+
+  export const getFetchProd = new Promise ((resolve, reject) => {
+    let url = 'tata.com'
+    if(url === 'tata.com'){
+      setTimeout(() => {
+        resolve(producto)
+      }, 3000)
+    } else {
+      reject('400 not found')
+    }
+  })
+
+
+  const producto = {id:6, foto: "https://http2.mlstatic.com/D_NQ_NP_928779-MLA25879249249_082017-O.jpg", detail: "Llanta Chevrolet Cruze"}

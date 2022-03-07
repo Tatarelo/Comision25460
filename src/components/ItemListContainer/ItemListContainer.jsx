@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { getFetch } from "../helper/getFetch";
 import { ItemList } from "../ItemList/ItemList";
 
-export default function ItemListContainer() {
+export const ItemListContainer = () =>{
+  // let url = 'https://pokeapi.co/api/v2/pokemon/?limit=10'
   const [productos, setProductos] = useState([]);
   const [loading, setLoading] = useState([true]);
 
@@ -17,6 +18,12 @@ export default function ItemListContainer() {
   }, []);
 
   console.log(productos);
+
+  // useEffect (() => {
+  //   fetch(url)
+  //   .then(resp => resp.json())
+  //   .then(resp => console.log(resp.results))
+  // }, [])
 
   return (
     <div>
