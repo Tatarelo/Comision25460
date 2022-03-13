@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: gold;
+  background-color: rgb(232,197,71);
   height: 100px;
 }
 
@@ -54,21 +54,38 @@ body {
 }
 
 .botonIncrementar {
-  width: 30px;
-  height: 30px;
+  border-radius: 5px;
+  border-color: black;
+  width: 65px;
+  height: 40px;
   margin-right: 40px;
-  background-color: greenyellow;
+  background-color: rgb(232,197,71);
 }
 
 .botonDecrementar {
-  width: 30px;
-  height: 30px;
+  border-radius: 5px;
+  border-color: black;
+  width: 65px;
+  height: 40px;
   margin-right: 40px;
-  background-color: red;
+  background-color: rgb(205, 209, 196);
 }
 
 .botonCarrito {
-  height: 30px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(232,197,71);
+  display: flex;
+  align-items: center;
+}
+
+.productDetail{
+  height: 40px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(232,197,71);
+  margin: 10px;
 }
 
 .textoCarrito {
@@ -76,7 +93,54 @@ body {
   margin-left: 100px;
 }
 
+.botonCarrito_texto{
+  font-size: 15px;
+}
+
 .count {
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.divItem{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.itemWrapper{
+  margin: 10px;
+  padding: 50px;
+  border: black 2px solid;
+  border-color: black;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.productName{
+  font-size: 20px;
+}
+
+#foto1{
+  width: 300px;
+}
+
+#foto2{
+  width: 300px;
+}
+
+#foto3{
+  width: 300px;
+}
+
+#foto4{
+  width: 300px;
+}
+
+#foto5{
+  width: 300px;
+}
+
+#foto6{
+  width: 300px;
 }

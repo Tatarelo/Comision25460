@@ -1,7 +1,8 @@
-export const ItemDetail = ({producto}) => {
+export const ItemDetail = ({productos}) => {
+  
   return (
     <div>
-      {producto.detail}
+      {productos.detail}
     </div>
   );
 };

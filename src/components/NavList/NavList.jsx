@@ -1,9 +1,11 @@
+import { NavLink } from "react-router-dom"
+
 export const NavList = () => {
     return (
         <ul className='navList_ul'>
-            <a href=""><li className='navList_li'>Inicio</li></a>
-            <a href=''><li className='navList_li'>Catálogo</li></a>
-            <a href=''><li className='navList_li'>Contacto</li></a>
+            <NavLink to='Fawkes'><li className='navList_li'>Inicio</li></NavLink>
+            <NavLink to='Fawkes'><li className='navList_li'>Catálogo</li></NavLink>
+            <NavLink to='Fawkes'><li className='navList_li'>Contacto</li></NavLink>
         </ul>
     )
 }
