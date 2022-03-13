@@ -1,8 +1,10 @@
 export const ItemDetail = ({productos}) => {
   
   return (
-    <div>
-      {productos.detail}
+    <div className="detailWrapper">
+      <p>{productos.detail}</p>
+      <img src={productos.foto} alt="" />
+      <p>{productos.precio}</p>
     </div>
   );
 };
