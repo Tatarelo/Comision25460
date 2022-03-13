@@ -115,32 +115,33 @@ body {
   border-color: black;
   border-radius: 10px;
   width: 500px;
+  margin-top: 50px;
 }
 
 .productName{
   font-size: 20px;
 }
 
-#foto1{
+#producto1{
   width: 300px;
 }
 
-#foto2{
+#producto2{
   width: 300px;
 }
 
-#foto3{
+#producto3{
   width: 300px;
 }
 
-#foto4{
+#producto4{
   width: 300px;
 }
 
-#foto5{
+#producto5{
   width: 300px;
 }
 
-#foto6{
+#producto6{
   width: 300px;
 }

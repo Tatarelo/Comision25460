@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import { ItemCount } from "../ItemCount/ItemCount";
 import { ProductDetail } from "../ProductDetail/ProductDetail";
 
-export const Item = ({foto,id, nombre}) => {
+export const Item = ({foto,id,nombre}) => {
   return (
     <div className="itemWrapper">
       <img src={foto} alt="Foto de producto" id={id} />
@@ -11,7 +12,7 @@ export const Item = ({foto,id, nombre}) => {
         onAdd={(n) => console.log(`Producto${n}`)}
       />
       <p className="productName">{nombre}</p>
-      <ProductDetail/>
+      <Link to ={`/detail/${id}`}><ProductDetail/></Link>
     </div>
   );
 };
