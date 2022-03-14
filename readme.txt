@@ -1,0 +1,1 @@
+El proyecto consta de una tienda virtual de repuestos de automotor, con una seccion principal donde se encuentra todo el contenido, y un pequeño catalogo de "llantas, filtros y componentes de inyeccion", cada elemento cuenta con su descripcion, la informacion de la cantidad de stock disponible, y un selector de cantidad para agregar al carrito
