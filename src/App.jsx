@@ -13,9 +13,10 @@ function App() {
         <NavBar/>
           <Routes>
             <Route path = '/Fawkes' element={<ItemListContainer/>}/>
-            <Route path = '/detail' element = { <ItemDetailContainer/>}/>
-            <Route path = '/*' element={<Navigate to='/Fawkes' replace />}/>
+            <Route path = '/catalogo/:categoriaId' element={<ItemListContainer/>}/>
+            <Route path = '/detail/:detailId' element = { <ItemDetailContainer/>}/>
             <Route path = '/cart' element ={<Cart/>}/>
+            <Route path = '/*' element={<Navigate to='/Fawkes' replace />}/>
           </Routes>
       </div>
     </BrowserRouter>

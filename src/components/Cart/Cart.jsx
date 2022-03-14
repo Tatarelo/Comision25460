@@ -1,3 +1,3 @@
 export const Cart = () => {
-    return <p>Carrito</p>
-}
+  return <p>Carrito</p>;
+};
