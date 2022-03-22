@@ -10,13 +10,13 @@ export const NavList = () => {
         Catálogo
         <ul>
           <NavLink to="/catalogo/filtros">
-            <li>Filtros</li>
+            <li className="navList_li">Filtros</li>
           </NavLink>
           <NavLink to="/catalogo/inyeccion">
-            <li>Inyeccion</li>
+            <li className="navList_li">Inyeccion</li>
           </NavLink>
           <NavLink to="/catalogo/llantas">
-            <li>Llantas</li>
+            <li className="navList_li">Llantas</li>
           </NavLink>
         </ul>
       </li>
