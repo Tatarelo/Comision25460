@@ -14,7 +14,7 @@ export const Item = (props) => {
           src={foto}
           alt="Foto de producto"
           id={id}
-          className={`producto${id}`}
+          className='imgs'
         />
         <label className="stock">Disponible:{stock}</label>
       </div>

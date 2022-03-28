@@ -25,6 +25,7 @@ export const CartContextProvider = ({ children }) => {
       );
     }
   };
+
   
   const agregarCart = (item) => {
     if (isInCart(item.id)) {

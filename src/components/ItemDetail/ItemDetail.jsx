@@ -13,11 +13,11 @@ export const ItemDetail = ({ productos }) => {
         <img
           src={productos.foto}
           alt="Foto detalle"
-          className={`producto${productos.id}`}
+          className='imgs'
           id={productos.id}
         />
         <label className="count">Disponible:{productos.stock}</label>
-        <p className="detailWrapper_text">{productos.precio}</p>
+        <p className="detailWrapper_text">${productos.precio}</p>
       </div>
 
       {congrat && (

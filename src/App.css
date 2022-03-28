@@ -196,36 +196,8 @@ body {
   align-items: center;
 }
 
-.producto1{
-  width: 150px;
-}
-
-.producto2{
-  width: 150px;
-}
-
-.producto3{
-  width: 150px;
-}
-
-.producto4{
-  width: 150px;
-}
-
-.producto5{
-  width: 150px;
-}
-
-.producto6{
-  width: 150px;
-}
-
-.producto7{
-  width: 150px;
-}
-
-.producto8{
-  width: 150px;
+.imgs{
+  max-width: 150px;
 }
 
 .detailWrapper{
