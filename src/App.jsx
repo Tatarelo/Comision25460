@@ -3,8 +3,8 @@ import "./App.css";
 import { NavBar } from "./components/NavBar/NavBar";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
-import { Cart } from "./components/Cart/Cart";
 import { CartContextProvider } from "./context/CartContext";
+import { CartContainer } from "./components/CartContainer/CartContainer";
 
 export const App = () => {
   return (
@@ -19,7 +19,7 @@ export const App = () => {
               element={<ItemListContainer />}
             />
             <Route path="/detail/:detailId" element={<ItemDetailContainer />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/cart" element={<CartContainer />} />
             <Route path="/*" element={<Navigate to="/Fawkes" replace />} />
           </Routes>
         </div>

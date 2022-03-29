@@ -104,7 +104,7 @@ body {
   border-radius: 5px;
   border-color: rgb(205, 209, 196);
   background-color: rgb(232,197,71);
-  margin: 50px 50px;
+  margin-left: 5px;
 }
 
 .borrarItem{
@@ -112,7 +112,7 @@ body {
   border-radius: 5px;
   border-color: rgb(205, 209, 196);
   background-color: rgb(232,197,71);
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .total{
@@ -228,4 +228,47 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cartForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartForm_input{
+  padding: 5px;
+  width: 400px;
+  height: 20px;
+  margin: 10px;
+}
+
+.cartDetail{
+  display: flex;
+  justify-content: center;
+}
+
+.cartDetail_sub{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cartDetail_buttons{
+  display: flex;
+  margin-top: 50px;
+}
+
+.cartCongrat{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 10px;
 }

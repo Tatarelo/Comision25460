@@ -14,7 +14,7 @@ export const ItemDetailContainer = () => {
     getDoc(queryDb)
     .then(resp => setProductos({id: resp.id, ...resp.data()}))
     .finally(() => setLoading(false))
-  },[])
+  },[detailId])
   return (
     <div>
       {loading ? <h1>Cargando...</h1> : <ItemDetail productos={productos} />}

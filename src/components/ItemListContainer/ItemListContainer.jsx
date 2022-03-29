@@ -24,7 +24,7 @@ useEffect(() => {
     .catch(err => console.log(err))
     .finally(() => setLoading(false))
   }
-},[])
+},[categoriaId])
 
   return (
     <div className="divItem">
