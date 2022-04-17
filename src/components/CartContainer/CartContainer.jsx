@@ -38,7 +38,7 @@ export const CartContainer = () => {
     setCartList,
   } = useCartContext();
 
-  const generarOrden = async () => {
+  const generarOrden = () => {
     let orden = {};
     orden.buyer = dataForm;
     orden.total = cantidadTotal;
